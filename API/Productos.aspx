@@ -66,7 +66,7 @@
         <%-- Producto 1 --%>
         <div class="product">
             <!-- Imagen del producto -->
-            <img src="C:\Users\nicol\Downloads\API\API\img\th (1).jpeg" alt="Producto 1" />
+            <img src="img/th%20(1).jpeg" " alt="Producto 1" />
             <!-- Nombre del producto -->
             <h3>Producto 1</h3>
             <!-- Descripción breve -->
@@ -81,7 +81,7 @@
 
         <%-- Producto 2 --%>
         <div class="product">
-            <img src="C:\Users\nicol\Downloads\API\API\img\bolso.jpg" alt="Producto 2" />
+            <img src="img/bolso.jpg" alt="Producto 2" />
             <h3>Producto 2</h3>
             <p>Materiales: Cuero</p>
             <p>Precio: $50.00</p>
@@ -91,32 +91,32 @@
 
         <%-- Producto 3 --%>
         <div class="product">
-            <img src="C:\Users\nicol\Downloads\API\API\img\reloj.jpg" alt="Producto 3" />
-            <h3>Producto 3</h3>
+            <img src="img/reloj.jpg" alt="Producto 3"/>
+            <h3>Reloj Samsung</h3>
             <p>Materiales: Metal, Plástico</p>
-            <p>Precio: $15.00</p>
+            <p>Precio: $1499.00</p>
             <p>Descripción: Reloj deportivo</p>
-            <button onclick="location.href='Carrito.aspx?prod=Producto3&precio=15'">Agregar al Carrito</button>
+            <button onclick="location.href='Carrito.aspx?prod=Reloj Samsung&precio=1499'">Agregar al Carrito</button>
         </div>
 
         <%-- Producto 4 --%>
         <div class="product">
-            <img src="C:\Users\nicol\Downloads\API\API\img\Lampara.jpg" alt="Producto 4" />
-            <h3>Producto 4</h3>
-            <p>Materiales: Vidrio</p>
-            <p>Precio: $10.00</p>
-            <p>Descripción: Vaso elegante</p>
-            <button onclick="location.href='Carrito.aspx?prod=Producto4&precio=10'">Agregar al Carrito</button>
+            <img src="img/Lampara.jpg" alt="Producto 4"/>
+            <h3>Lámpara led</h3>
+            <p>Materiales: Cristal</p>
+            <p>Precio: $220.00</p>
+            <p>Descripción: Lámpara elegante</p>
+            <button onclick="location.href='Carrito.aspx?prod=Lampara led&precio=220'">Agregar al Carrito</button>
         </div>
 
         <%-- Producto 5 --%>
         <div class="product">
-            <img src="C:\Users\nicol\Downloads\API\API\img\audifonos.jpg" alt="Producto 5" />
-            <h3>Producto 5</h3>
+            <img src="img/audifonos.jpg" alt="Producto 5"/>
+            <h3>Auriculares SONY</h3>
             <p>Materiales: Plástico, Metal</p>
-            <p>Precio: $30.00</p>
+            <p>Precio: $500.00</p>
             <p>Descripción: Auriculares inalámbricos</p>
-            <button onclick="location.href='Carrito.aspx?prod=Producto5&precio=30'">Agregar al Carrito</button>
+            <button onclick="location.href='Carrito.aspx?prod=Auriculares SONY&precio=500'">Agregar al Carrito</button>
         </div>
     </div>
 </body>
