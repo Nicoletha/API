@@ -32,6 +32,19 @@
             border-radius: 5px;
             cursor: pointer;
         }
+        .btn-eliminar {
+            padding: 5px 10px;
+            background-color: #f44336;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        #paypal-button-container {
+            display: flex;
+            justify-content: center; /* Centra el botón de PayPal */
+            margin: 20px 0; /* Espaciado alrededor del botón */
+        }
     </style>
     <script src="https://www.paypal.com/sdk/js?client-id=Af6_NajPxmzcmIkbdHLiURfyJL52ARkIFaerE7FdPWDifAz4hvkHmRwWuHWOZItpIeNX7KzNbvfmyzHl"></script>
 </head>
@@ -42,6 +55,7 @@
             <tr>
                 <th>Producto</th>
                 <th>Precio</th>
+                <th>Acciones</th> <!-- Nueva columna para acciones -->
             </tr>
         </thead>
         <tbody id="carritoItems">
@@ -49,6 +63,9 @@
             <tr>
                 <td><%= item.Nombre %></td>
                 <td>$<%= item.Precio %></td>
+                <td>
+                    <button class="btn-eliminar" onclick="eliminarProducto('<%= item.Nombre %>')">Eliminar</button> <!-- Botón de eliminar -->
+                </td>
             </tr>
             <% } %>
         </tbody>
@@ -56,10 +73,16 @@
 
     <div class="total">
         <h2>Total: $<%= TotalCarrito %></h2>
-        <div id="paypal-button-container"></div>
     </div>
 
+    <div id="paypal-button-container"></div> <!-- Contenedor centrado para el botón de PayPal -->
+
     <script>
+        function eliminarProducto(nombre) {
+            // Redirige a una URL con el producto a eliminar (ajusta según tu lógica)
+            window.location.href = 'Carrito.aspx?eliminar=' + encodeURIComponent(nombre);
+        }
+
         paypal.Buttons({
             createOrder: function(data, actions) {
                 return actions.order.create({

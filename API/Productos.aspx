@@ -49,7 +49,7 @@
     <div class="product-container">
         <%-- Producto 1 --%>
         <div class="product">
-            <img src="images/producto1.jpg" alt="Producto 1" />
+            <img src="C:\Users\nicol\Downloads\API\API\img\th (1).jpeg" alt="Producto 1" />
             <h3>Producto 1</h3>
             <p>Materiales: Algodón, Poliéster</p>
             <p>Precio: $20.00</p>
@@ -59,7 +59,7 @@
 
         <%-- Producto 2 --%>
         <div class="product">
-            <img src="images/producto2.jpg" alt="Producto 2" />
+            <img src="C:\Users\nicol\Downloads\API\API\img\bolso.jpg" alt="Producto 2" />
             <h3>Producto 2</h3>
             <p>Materiales: Cuero</p>
             <p>Precio: $50.00</p>
@@ -69,7 +69,7 @@
 
         <%-- Producto 3 --%>
         <div class="product">
-            <img src="images/producto3.jpg" alt="Producto 3" />
+            <img src="C:\Users\nicol\Downloads\API\API\img\reloj.jpg" alt="Producto 3" />
             <h3>Producto 3</h3>
             <p>Materiales: Metal, Plástico</p>
             <p>Precio: $15.00</p>
@@ -79,7 +79,7 @@
 
         <%-- Producto 4 --%>
         <div class="product">
-            <img src="images/producto4.jpg" alt="Producto 4" />
+            <img src="C:\Users\nicol\Downloads\API\API\img\Lampara.jpg" alt="Producto 4" />
             <h3>Producto 4</h3>
             <p>Materiales: Vidrio</p>
             <p>Precio: $10.00</p>
@@ -89,7 +89,7 @@
 
         <%-- Producto 5 --%>
         <div class="product">
-            <img src="images/producto5.jpg" alt="Producto 5" />
+            <img src="C:\Users\nicol\Downloads\API\API\img\audifonos.jpg" alt="Producto 5" />
             <h3>Producto 5</h3>
             <p>Materiales: Plástico, Metal</p>
             <p>Precio: $30.00</p>

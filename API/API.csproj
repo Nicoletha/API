@@ -68,6 +68,11 @@
   </ItemGroup>
   <ItemGroup>
     <Content Include="Carrito.aspx" />
+    <Content Include="img\audifonos.jpg" />
+    <Content Include="img\bolso.jpg" />
+    <Content Include="img\Lampara.jpg" />
+    <Content Include="img\reloj.jpg" />
+    <Content Include="img\th %281%29.jpeg" />
     <Content Include="PayPalPayment.aspx" />
     <Content Include="Productos.aspx" />
     <Content Include="Web.config" />
@@ -102,6 +107,7 @@
       <DependentUpon>Web.config</DependentUpon>
     </None>
   </ItemGroup>
+  <ItemGroup />
   <PropertyGroup>
     <VisualStudioVersion Condition="'$(VisualStudioVersion)' == ''">10.0</VisualStudioVersion>
     <VSToolsPath Condition="'$(VSToolsPath)' == ''">$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)</VSToolsPath>

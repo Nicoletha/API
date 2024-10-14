@@ -35,6 +35,15 @@ namespace API
                 Session["Carrito"] = CarritoItems; // Actualiza la sesión
             }
 
+            // Si hay un producto para eliminar
+            if (!string.IsNullOrEmpty(Request.QueryString["eliminar"]))
+            {
+                string nombreEliminar = Request.QueryString["eliminar"];
+                CarritoItems.RemoveAll(item => item.Nombre == nombreEliminar); // Elimina el producto por nombre
+            }
+
+            Session["Carrito"] = CarritoItems; // Actualiza la sesión
+
             // Calcular el total
             TotalCarrito = 0;
             foreach (var item in CarritoItems)
