@@ -82,6 +82,11 @@
         <h2>Total: $<%= TotalCarrito %></h2>
     </div>
 
+     <!-- Botón para regresar a la tienda -->
+    <div style="text-align: center; margin-top: 20px;">
+        <button class="btn-regresar" onclick="location.href='Productos.aspx'">Regresar a la Tienda</button>
+    </div>
+
     <!-- Aquí es donde se renderizará el botón de PayPal -->
     <div id="paypal-button-container"></div> 
 
